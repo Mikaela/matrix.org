@@ -15,6 +15,11 @@ exclude:
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-sitemap
+sitemap:
+  file: "/sitemap.xml"
+
 #defaults:
 permalink: /:categories/:title.html # can use this when/if we use jekyll for all docs
 #permalink: /:title.html
